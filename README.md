@@ -53,3 +53,12 @@ When working with CrewAI, three main components form the foundation of multi-age
 1. **Agents** – Autonomous entities capable of reasoning and acting.  
 2. **Tasks** – Work items assigned to agents.  
 3. **Crews** – Groups of agents collaborating to achieve a goal.  
+
+## Additional Best Practices
+
+- **Agents perform better when role-playing.**  
+- **Focus on goals and expectations.**  
+- **One agent can handle multiple tasks.**  
+- **Tasks and agents should be granular.**  
+- **Tasks can be executed in different ways.**  
+- **It's easy to create multi-agent systems with CrewAI.**  

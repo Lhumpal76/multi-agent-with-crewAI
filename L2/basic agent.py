@@ -1,12 +1,5 @@
 from crewai import Agent, LLM
 
-# # Example using Gemini's OpenAI-compatible API
-# llm = LLM(
-#     model="openai/gemini-2.0-flash",
-#     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-#     api_key="AIzaSyAarvzNAjFo8w0e3B75cdKxOeNAxz-tR8U",  # Should start with AIza...
-# )
-
 # Use Ollama locally
 llm = LLM(
     model="ollama/mistral",        # or whatever model you pulled

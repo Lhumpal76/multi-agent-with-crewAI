@@ -2,7 +2,7 @@ from crewai import Agent, LLM
 
 # Use Ollama locally
 llm = LLM(
-    model="ollama/mistral",        # or whatever model you pulled
+    model="ollama/",        # or whatever model you pulled
     base_url="http://localhost:11434"
     # no api_key needed
 )
